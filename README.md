@@ -45,7 +45,7 @@ Welcome to my corner of the web. I'm Ramakrushna, a developer who turns ideas in
 - Added real-time Google address suggestions for user convenience.
 
 ## 🌐 Live Portfolio
-[View the live site](https://yourusername.github.io/your-repo-name)
+[View the live site](https://ramelitedesk.github.io/ramakrushna-portfolio/)
 
 ## 📬 Let’s Connect
 If you’re a recruiter, collaborator, or fellow dev—I'd love to hear from you.  
