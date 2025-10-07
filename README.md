@@ -1,26 +1,57 @@
-💼 Ramakrushna Behera – Web Developer Portfolio
-Welcome to my professional portfolio, where code meets creativity and functionality. This repository showcases my work as a Web Developer, API Integration Expert, and UI Enthusiast, with real-world projects that reflect my commitment to clean architecture, responsive design, and seamless user experiences.
+# 🚀 Ramakrushna Behera – Developer of Digital Experiences
 
-🔧 Tech Stack
-Frontend: HTML5, CSS3, Bootstrap, JavaScript
+Welcome to my corner of the web. I'm Ramakrushna, a developer who turns ideas into interactive, scalable, and visually engaging web experiences. This portfolio isn't just a showcase—it's a reflection of how I think, build, and solve.
 
-Backend: PHP, WordPress, WooCommerce, MySQL
+## 💡 About Me
+- 🔧 Web Developer with a passion for clean code and intuitive design
+- 🔗 API Integration Expert who loves connecting systems and streamlining workflows
+- 🎨 UI Enthusiast obsessed with responsive layouts and pixel-perfect interfaces
 
-Tools & APIs: Stripe, PayPal, LeadCapsule API, Google Maps API
+## 🧰 My Tech Stack
 
-📌 Featured Projects
-E-Commerce Store: Scalable WooCommerce site with custom payment workflows and mobile optimization.
+### 🖥️ Frontend
+- HTML5, CSS3, JavaScript, jQuery
+- React.js, Next.js
+- Tailwind CSS, Bootstrap 5
 
-Corporate Sites: Multi-page PHP/MySQL builds with real-time form validation and API integrations.
+### 🛠️ Backend
+- Laravel, CodeIgniter
+- WordPress, PHP
 
-🎯 What Sets This Portfolio Apart
-Responsive layout with mobile-first design
+### 🗄️ Databases
+- PostgreSQL, MySQL, MongoDB
 
-Interactive UI elements powered by Bootstrap and JavaScript
+### ⚙️ Tools & Platforms
+- Git, GitHub, Docker, Vite
+- Visual Studio Code
 
-Clean codebase with modular structure and intuitive UX
+### 🔌 API Integrations
+- RESTful APIs, GraphQL
+- OAuth 2.0, JWT Authentication
+- JSON, Postman
+- Payment Gateways (Stripe, PayPal)
 
-Hosted via GitHub Pages for fast and free access
+## 📂 Featured Projects
+### 🛒 E-Commerce Stores
+- Scalable store built with WordPress and WooCommerce.
+- Integrated Stripe, PayPal, and custom payment workflows.
+- AJAX search suggestions, custom watchlist, discount coupons, and gallery features.
+- Modified checkout/cart pages and added AMP support for mobile optimization.
 
-📄 Live Demo
-Click here to view the live portfolio
+### 🏢 Corporate Sites
+- Built multi-page corporate sites with custom PHP and MySQL.
+- Multi-step forms with real-time jQuery validation.
+- Integrated LeadCapsule API and handled JSON responses.
+- Added real-time Google address suggestions for user convenience.
+
+## 🌐 Live Portfolio
+[View the live site](https://yourusername.github.io/your-repo-name)
+
+## 📬 Let’s Connect
+If you’re a recruiter, collaborator, or fellow dev—I'd love to hear from you.  
+📧 Email: ramelitedesk@gmail.com  
+🔗 LinkedIn: [linkedin.com/in/ramakrushna](https://www.linkedin.com/in/ramakrushna-behera-1bba59320)
+
+---
+
+> “Code is not just syntax—it’s a conversation between logic and creativity.”
