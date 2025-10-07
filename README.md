@@ -49,7 +49,7 @@ Welcome to my corner of the web. I'm Ramakrushna, a developer who turns ideas in
 
 ## 📬 Let’s Connect
 If you’re a recruiter, collaborator, or fellow dev—I'd love to hear from you.  
-📧 Email: ramelitedesk@gmail.com  
+📧 Email: ramakrushna.webdev@gmail.com  
 🔗 LinkedIn: [linkedin.com/in/ramakrushna](https://www.linkedin.com/in/ramakrushna-behera-1bba59320)
 
 ---
