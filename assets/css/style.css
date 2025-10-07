@@ -1,0 +1,300 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('./assets/img/bg-texture.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 70px;
+}
+
+.bg-gradient-custom {
+    background: linear-gradient(to right, #1f1c2c, #928dab);
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    font-size: 1rem;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #00ffcc;
+}
+
+/* Banner Section */
+.banner {
+    background: linear-gradient(to right, #1f1c2c, #928dab);
+    color: #ffffff;
+    padding: 80px 20px;
+}
+
+/* Skills Section */
+#skills {
+    background: linear-gradient(to right, #1f1c2c, #928dab);
+    color: white;
+    padding: 80px 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+    transform: scale(1.03);
+    background-color: #343a40;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    border-left: 5px solid #00ffcc;
+    padding-left: 10px;
+}
+
+.card-text {
+    /* font-size: 1.1rem; */
+    line-height: 1.6;
+}
+
+/*timeline*/
+#experience {
+    background: linear-gradient(to right, #1f1c2c, #928dab);
+    color: white;
+    padding: 80px 20px;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 30px;
+    border-left: 2px solid #00ffcc;
+}
+
+.timeline-item {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -11px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: #00ffcc;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.timeline-item h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+}
+
+.timeline-item ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.timeline-item ul li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+#personal-achievements {
+    background: linear-gradient(to right, #1f1c2c, #928dab);
+    color: white;
+    padding: 80px 20px;
+}
+
+#personal-achievements .timeline {
+    position: relative;
+    padding-left: 30px;
+    border-left: 2px solid #00ffcc;
+}
+
+#personal-achievements .timeline-item {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+#personal-achievements .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -11px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: #00ffcc;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+#personal-achievements .timeline-item h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#personal-achievements .timeline-item ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+#personal-achievements .timeline-item ul li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+
+#projects {
+    background: linear-gradient(to right, #1f1c2c, #928dab);
+    color: white;
+    padding: 80px 20px;
+}
+
+#education {
+    background: linear-gradient(to right, #1f1c2c, #928dab);
+    color: white;
+    padding: 80px 20px;
+}
+
+.edu-box {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-left: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.edu-box:hover {
+    transform: scale(1.03);
+    background-color: #343a40;
+}
+
+.edu-box h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.edu-box p {
+    margin-bottom: 0.4rem;
+}
+
+
+.contact-footer {
+    background: linear-gradient(to right, #1f1c2c, #928dab);
+    border-top: 10px solid #fff;
+    color: white;
+}
+
+.contact-footer p {
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+}
+
+.footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #00ffcc;
+}
+
+.footer-link i {
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+
+#contact-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+/*what's app icon */
+a.sticky-whatsapp-icon {
+    position: fixed;
+    bottom: 30px;
+    left: 1.5rem;
+    width: 50px;
+    height: 50px;
+    background-color: #25d366;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+a.sticky-whatsapp-icon i.bi.bi-whatsapp {
+    font-size: 25px;
+    color: #fff;
+}
+
+a.sticky-whatsapp-icon i.bi.bi-whatsapp::before {
+    line-height: 0px !important;
+}
+
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.bounce-icon {
+    animation: bounce 1s infinite;
+    font-size: 1.8rem;
+    color: #f8f9e2;
+}
+
+.scroll_top {
+    position: fixed;
+
+    right: 40px;
+    bottom: 40px;
+
+    z-index: 333333;
+}
+
+.scroll_top a {
+    width: 40px;
+    height: 60px;
+    background-color: #ffbd00;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #041E42;
+    font-size: 20px;
+}
+
+@media(max-width:767px) {
+    .scroll_top {
+        right: 20px;
+        bottom: 20px;
+    }
+}
