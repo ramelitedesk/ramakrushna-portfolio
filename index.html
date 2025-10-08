@@ -871,6 +871,9 @@
                     <div class="col-md-6 col-lg-5">
                         <div class="contact-form-box">
                             <form id="form">
+                                <div class="g-recaptcha" data-sitekey="6Ld8x-IrAAAAALIxSayXQEsbl7EvC-Lstw8ylCjG"></div>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
                                 <label for="name">Name</label>
                                 <input type="text" id="name" name="from_name"
                                     placeholder="Your name" required />
@@ -975,12 +978,17 @@
     e.preventDefault(); // Prevent form from refreshing the page
 
     const form = e.target;
-
+const token = grecaptcha.getResponse();
+      if (!token) {
+    alert("Please complete the CAPTCHA.");
+    return;
+  }
     const params = {
       from_name: form.from_name.value,
       to_name: "Ramakrushna", // Optional: make dynamic if needed
       message: form.message.value,
-      reply_to: form.reply_to.value
+      reply_to: form.reply_to.value,
+        "g-recaptcha-response": token
     };
 
     emailjs.send("service_xye2uzl", "template_ain5dmd", params)
@@ -997,3 +1005,4 @@
 </script>
     </body>
 </html>
+
