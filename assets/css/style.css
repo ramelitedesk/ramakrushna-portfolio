@@ -32,6 +32,20 @@ body {
     background: linear-gradient(to right, #1f1c2c, #928dab);
     color: #ffffff;
     padding: 80px 20px;
+
+}
+
+@media (min-width: 1200px) {
+    .banner {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        padding-top: 60px;
+        /* Optional: adjust if you have a fixed navbar */
+        padding-bottom: 60px;
+        overflow: hidden;
+    }
+
 }
 
 /* Skills Section */
@@ -41,30 +55,67 @@ body {
     padding: 80px 20px;
 }
 
+/* Card Styling */
 .card {
+    background: linear-gradient(to right, #1f1c2c, #928dab);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
     border: none;
     border-radius: 12px;
     transition: transform 0.3s ease;
-    background-color: rgba(0, 0, 0, 0.6);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .card:hover {
-    transform: scale(1.03);
-    background-color: #343a40;
+    transform: translateY(-5px);
 }
 
+/* Card Titles */
 .card-title {
     font-size: 1.5rem;
+    color: #f8f8f9;
     margin-bottom: 1rem;
-    border-left: 5px solid #00ffcc;
-    padding-left: 10px;
 }
 
-.card-text {
-    /* font-size: 1.1rem; */
-    line-height: 1.6;
+/* Tech Icon Styling */
+.tech-icon {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
 }
+
+.tech-icon:hover {
+    transform: scale(1.1);
+}
+
+/* Text Styling */
+.text-warning {
+    color: #ffc107 !important;
+}
+
+.text-success {
+    color: #28a745 !important;
+}
+
+.text-light {
+    color: #f8f9fa !important;
+}
+
+/* Responsive Grid Adjustments */
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 1.25rem;
+    }
+
+    .tech-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    #skills h2 {
+        font-size: 2rem;
+    }
+}
+
 
 /*timeline*/
 #experience {
@@ -79,16 +130,20 @@ body {
     border-left: 2px solid #00ffcc;
 }
 
-.timeline-item {
+#experience .timeline-item {
+    background: linear-gradient(to right, #1f1c2c, #928dab);
     margin-bottom: 40px;
     position: relative;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    padding: 20px;
 }
 
-.timeline-item::before {
+#experience .timeline-item::before {
     content: '';
     position: absolute;
-    left: -11px;
-    top: 5px;
+    left: 8px;
+    top: 22px;
     width: 20px;
     height: 20px;
     background-color: #00ffcc;
@@ -112,6 +167,14 @@ body {
     line-height: 1.6;
 }
 
+@media (min-width: 1200px) {
+    #experience .timeline-item .toggle-btn {
+        position: absolute;
+        left: 58rem;
+        top: 3rem;
+    }
+}
+
 #personal-achievements {
     background: linear-gradient(to right, #1f1c2c, #928dab);
     color: white;
@@ -125,15 +188,19 @@ body {
 }
 
 #personal-achievements .timeline-item {
+    background: linear-gradient(to right, #1f1c2c, #928dab);
     margin-bottom: 40px;
     position: relative;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    padding: 20px;
 }
 
 #personal-achievements .timeline-item::before {
     content: '';
     position: absolute;
-    left: -11px;
-    top: 5px;
+    left: 8px;
+    top: 22px;
     width: 20px;
     height: 20px;
     background-color: #00ffcc;
@@ -156,11 +223,39 @@ body {
     line-height: 1.6;
 }
 
+@media (min-width: 1200px) {
+    #personal-achievements .timeline-item .toggle-btn {
+        position: absolute;
+        left: 58rem;
+        top: 2rem;
+    }
+}
 
 #projects {
     background: linear-gradient(to right, #1f1c2c, #928dab);
     color: white;
     padding: 80px 20px;
+}
+
+#projects .timeline-item {
+    background: linear-gradient(to right, #1f1c2c, #928dab);
+    margin-bottom: 40px;
+    position: relative;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+#projects .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 22px;
+    width: 20px;
+    height: 20px;
+    background-color: #00ffcc;
+    border-radius: 50%;
+    border: 2px solid white;
 }
 
 #education {
@@ -170,7 +265,9 @@ body {
 }
 
 .edu-box {
-    background-color: rgba(0, 0, 0, 0.6);
+    background: linear-gradient(to right, #1f1c2c, #928dab);
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
     border-left: none;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
@@ -189,6 +286,98 @@ body {
 
 .edu-box p {
     margin-bottom: 0.4rem;
+}
+
+#contact-form {
+    background: linear-gradient(to right, #1f1c2c, #928dab);
+    color: white;
+    padding: 80px 20px;
+}
+
+.section-heading {
+    margin-bottom: 40px;
+}
+
+.contact-info-box,
+.contact-form-box {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Form Styling */
+.contact-form-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-box label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form-box input,
+.contact-form-box textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+.contact-form-box textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.contact-form-box button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact-form-box button:hover {
+    background-color: #218838;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+
+    .contact-info-box,
+    .contact-form-box {
+        margin-bottom: 30px;
+    }
+
+    .contact-form-box button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    #contact-form {
+        padding: 40px 10px;
+    }
+
+    .section-heading h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact-info-box h2 {
+        font-size: 1.25rem;
+    }
+
+    .contact-info p,
+    .contact-form-box label,
+    .contact-form-box input,
+    .contact-form-box textarea {
+        font-size: 0.95rem;
+    }
 }
 
 
